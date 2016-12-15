@@ -1,0 +1,70 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6B5892A1-DA1A-A80B-8011-E58EB0FB5992}") = "fps_tps 2", "Assembly-CSharp-firstpass.csproj", "{84BE21AB-60C4-4634-279D-9250BE9A7767}"
+EndProject
+Project("{6B5892A1-DA1A-A80B-8011-E58EB0FB5992}") = "fps_tps 2", "Assembly-CSharp.csproj", "{7304EEA5-79AB-F270-FAD1-ACCCB00A86A8}"
+EndProject
+Project("{6B5892A1-DA1A-A80B-8011-E58EB0FB5992}") = "fps_tps 2", "Assembly-CSharp-Editor.csproj", "{E478C370-FFD8-CF09-0FFD-E456EE9A130E}"
+EndProject
+Project("{6B5892A1-DA1A-A80B-8011-E58EB0FB5992}") = "fps_tps 2", "Assembly-UnityScript-firstpass.unityproj", "{FEF32936-2FB2-EDE4-8161-42273190C91B}"
+EndProject
+Project("{6B5892A1-DA1A-A80B-8011-E58EB0FB5992}") = "fps_tps 2", "Assembly-UnityScript.unityproj", "{5B870F92-75AB-21CA-2CCD-A74A8900C0B9}"
+EndProject
+Project("{6B5892A1-DA1A-A80B-8011-E58EB0FB5992}") = "fps_tps 2", "Assembly-UnityScript-Editor.unityproj", "{1CDA7BE2-96CD-FA92-D38E-CE15523F2F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84BE21AB-60C4-4634-279D-9250BE9A7767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BE21AB-60C4-4634-279D-9250BE9A7767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BE21AB-60C4-4634-279D-9250BE9A7767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BE21AB-60C4-4634-279D-9250BE9A7767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7304EEA5-79AB-F270-FAD1-ACCCB00A86A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7304EEA5-79AB-F270-FAD1-ACCCB00A86A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7304EEA5-79AB-F270-FAD1-ACCCB00A86A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7304EEA5-79AB-F270-FAD1-ACCCB00A86A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E478C370-FFD8-CF09-0FFD-E456EE9A130E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E478C370-FFD8-CF09-0FFD-E456EE9A130E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E478C370-FFD8-CF09-0FFD-E456EE9A130E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E478C370-FFD8-CF09-0FFD-E456EE9A130E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF32936-2FB2-EDE4-8161-42273190C91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF32936-2FB2-EDE4-8161-42273190C91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF32936-2FB2-EDE4-8161-42273190C91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF32936-2FB2-EDE4-8161-42273190C91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B870F92-75AB-21CA-2CCD-A74A8900C0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B870F92-75AB-21CA-2CCD-A74A8900C0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B870F92-75AB-21CA-2CCD-A74A8900C0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B870F92-75AB-21CA-2CCD-A74A8900C0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDA7BE2-96CD-FA92-D38E-CE15523F2F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDA7BE2-96CD-FA92-D38E-CE15523F2F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDA7BE2-96CD-FA92-D38E-CE15523F2F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDA7BE2-96CD-FA92-D38E-CE15523F2F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																																		GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
