@@ -11,7 +11,15 @@ public class mp15 : selectedPrimaryWeapon {
 		price = 400.0f;
 		precision = 0.055f;
 	}
+
+	public override float getPrecision(){
+		return  precision;
+	}
 	
+	public override string getDescription() {
+		return description;
+	}
+
 	public override GameObject mount3DModel (){
 		GameObject path_to_model = (GameObject)Resources.Load ("Prefabs/Weapons/FPV/v_" + this.name);
 		return GameObject.Instantiate (path_to_model, Player.transform.position, Player.transform.rotation) as GameObject;

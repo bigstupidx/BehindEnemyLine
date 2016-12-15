@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DesignPatterns/Singleton/AdMobManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DesignPatterns/Singleton/SingletonManager/GP8SingletonAdvertisementManager.cs">
     <Files>
       <File FileName="Assets/Scripts/EnemyMovement.cs" Line="75" Column="3" />
       <File FileName="Assets/DesignPatterns/Strategy/EnemyStrategy.cs" Line="20" Column="1" />
@@ -10,7 +10,6 @@
       <File FileName="Assets/DesignPatterns/Singleton/MusicManager/MusicManager.cs" Line="1" Column="1" />
       <File FileName="Assets/DesignPatterns/Singleton/SingletonManager/GP8SingletonAnalyticsManager.cs" Line="1" Column="1" />
       <File FileName="Assets/DesignPatterns/Singleton/SingletonManager/GP8SingletonAdvertisementManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/DesignPatterns/Singleton/AdMobManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

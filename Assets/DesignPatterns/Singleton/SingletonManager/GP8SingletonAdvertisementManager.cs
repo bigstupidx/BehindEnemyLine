@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GP8SingletonAdvertisementManager : SingletonBase<GP8SingletonAdvertisementManager>
+public class GP8SingletonAdvertisementManager : GP8SingletonBase<GP8SingletonAdvertisementManager>
 {
 
 		private	GP8SingletonAdvertisementManager ()

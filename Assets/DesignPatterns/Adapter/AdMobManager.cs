@@ -26,12 +26,12 @@ public class AdMobManager : MonoBehaviour
 				// Create a 320x50 banner at the top of the screen.
 				bannerView = new BannerView (adUnitId, AdSize.SmartBanner, AdPosition.Top);
 				// Register for ad events.
-				bannerView.AdLoaded += HandleAdLoaded;
-				bannerView.AdFailedToLoad += HandleAdFailedToLoad;
+				bannerView.OnAdLoaded += HandleAdLoaded;
+				bannerView.OnAdFailedToLoad += HandleAdFailedToLoad;
 				bannerView.AdOpened += HandleAdOpened;
 				bannerView.AdClosing += HandleAdClosing;
-				bannerView.AdClosed += HandleAdClosed;
-				bannerView.AdLeftApplication += HandleAdLeftApplication;
+				bannerView.OnAdClosed += HandleAdClosed;
+				bannerView.OnAdLeavingApplication += HandleAdLeftApplication;
 				// Load a banner ad.
 				bannerView.LoadAd (createAdRequest ());
 		}
@@ -51,12 +51,12 @@ public class AdMobManager : MonoBehaviour
 				// Create an interstitial.
 				interstitial = new InterstitialAd (adUnitId);
 				// Register for ad events.
-				interstitial.AdLoaded += HandleInterstitialLoaded;
-				interstitial.AdFailedToLoad += HandleInterstitialFailedToLoad;
+				interstitial.OnAdLoaded += HandleInterstitialLoaded;
+				interstitial.OnAdFailedToLoad += HandleInterstitialFailedToLoad;
 				interstitial.AdOpened += HandleInterstitialOpened;
 				interstitial.AdClosing += HandleInterstitialClosing;
-				interstitial.AdClosed += HandleInterstitialClosed;
-				interstitial.AdLeftApplication += HandleInterstitialLeftApplication;
+				interstitial.OnAdClosed += HandleInterstitialClosed;
+				interstitial.OnAdLeavingApplication += HandleInterstitialLeftApplication;
 				// Load an interstitial ad.
 				interstitial.LoadAd (createAdRequest ());
 		}

@@ -8,6 +8,7 @@ public class SplashScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		manager = MusicManager.Instance;
+		AdMobManager.ShowInterstitial ();
 	}
 	
 	// Update is called once per frame
